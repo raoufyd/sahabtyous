@@ -115,21 +115,11 @@ export function One() {
       </div>
       <div className="flex flex-col items-center justify-center m-10 mt-15 text-[14px] p-10 w-screen bg-[#e9f8fc]">
         <span className=" text-center  font-['Open_Sans']">
-          Copyright 2023. chloebloom.com
+          <img
+            src="Chloe-Bloom_Secondaire_Noir.png"
+            className="w-[19rem]"
+          ></img>
         </span>
-        <div className="flex flex-row items-center justify-center">
-          <a href="" className="p-1 text-[blue] ">
-            Mentions Légales
-          </a>
-          |
-          <a href="" className="p-1 text-[blue] ">
-            Politique de confidentialité
-          </a>
-          |
-          <a href="" className="p-1 text-[blue] ">
-            Mes programmes
-          </a>
-        </div>
       </div>
     </div>
   );
