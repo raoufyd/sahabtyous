@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap");
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  background-image: url("../public/undef_src_sa_picid_733215_x_1000_type_whitesh_image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat-y;
+}
+.fa-cog {
+  color: #f4c362;
+}
+.boxshdaw {
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.4), 0 0 15px rgba(255, 255, 255, 0.2),
+    0 0 3px rgba(255, 255, 255, 0.4);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.shadowimg {
+  box-shadow: 0 10px 6px -6px #777;
+}
+.fa-black {
+  color: #474747;
+}
